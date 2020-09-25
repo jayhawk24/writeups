@@ -1,0 +1,6 @@
+               
+  local_58 = "ZUB*aVrOUsCPS;$R=Q";
+  local_60 = "!8u)05/>!#,.W/%H-G";
+  printf("Use this as ur input:  %s\n","!8u)05/>!#,.W/%H-G");
+  __isoc99_scanf("%[^\n]%*c");
+  local_a8 = 0;
