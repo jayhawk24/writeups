@@ -1,0 +1,42 @@
+<?xml version="1.0"?>
+<!DOCTYPE items [
+<!ELEMENT items (item*)>
+<!ATTLIST items burpVersion CDATA "">
+<!ATTLIST items exportTime CDATA "">
+<!ELEMENT item (time, url, host, port, protocol, method, path, extension, request, status, responselength, mimetype, response, comment)>
+<!ELEMENT time (#PCDATA)>
+<!ELEMENT url (#PCDATA)>
+<!ELEMENT host (#PCDATA)>
+<!ATTLIST host ip CDATA "">
+<!ELEMENT port (#PCDATA)>
+<!ELEMENT protocol (#PCDATA)>
+<!ELEMENT method (#PCDATA)>
+<!ELEMENT path (#PCDATA)>
+<!ELEMENT extension (#PCDATA)>
+<!ELEMENT request (#PCDATA)>
+<!ATTLIST request base64 (true|false) "false">
+<!ELEMENT status (#PCDATA)>
+<!ELEMENT responselength (#PCDATA)>
+<!ELEMENT mimetype (#PCDATA)>
+<!ELEMENT response (#PCDATA)>
+<!ATTLIST response base64 (true|false) "false">
+<!ELEMENT comment (#PCDATA)>
+]>
+<items burpVersion="2020.2" exportTime="Sat Sep 26 00:12:17 IST 2020">
+  <item>
+    <time>Sat Sep 26 00:07:19 IST 2020</time>
+    <url><![CDATA[http://sosimple.darkarmy.xyz/?id=5]]></url>
+    <host ip="104.24.121.132">sosimple.darkarmy.xyz</host>
+    <port>80</port>
+    <protocol>http</protocol>
+    <method><![CDATA[GET]]></method>
+    <path><![CDATA[/?id=5]]></path>
+    <extension>null</extension>
+    <request base64="true"><![CDATA[R0VUIC8/aWQ9NSBIVFRQLzEuMQ0KSG9zdDogc29zaW1wbGUuZGFya2FybXkueHl6DQpVc2VyLUFnZW50OiBNb3ppbGxhLzUuMCAoWDExOyBMaW51eCB4ODZfNjQ7IHJ2OjY4LjApIEdlY2tvLzIwMTAwMTAxIEZpcmVmb3gvNjguMA0KQWNjZXB0OiB0ZXh0L2h0bWwsYXBwbGljYXRpb24veGh0bWwreG1sLGFwcGxpY2F0aW9uL3htbDtxPTAuOSwqLyo7cT0wLjgNCkFjY2VwdC1MYW5ndWFnZTogZW4tVVMsZW47cT0wLjUNCkFjY2VwdC1FbmNvZGluZzogZ3ppcCwgZGVmbGF0ZQ0KRE5UOiAxDQpDb25uZWN0aW9uOiBjbG9zZQ0KQ29va2llOiBfX2NmZHVpZD1kZDFmZDg1MmNiYTQ3MjRlMTVjZjZhYTU3MWQxNzIxMjcxNjAxMDEwNTk4DQpVcGdyYWRlLUluc2VjdXJlLVJlcXVlc3RzOiAxDQoNCg==]]></request>
+    <status>200</status>
+    <responselength>666</responselength>
+    <mimetype>HTML</mimetype>
+    <response base64="true"><![CDATA[SFRUUC8xLjEgMjAwIE9LDQpEYXRlOiBGcmksIDI1IFNlcCAyMDIwIDEzOjA3OjIwIEdNVA0KQ29udGVudC1UeXBlOiB0ZXh0L2h0bWw7IGNoYXJzZXQ9VVRGLTgNCkNvbm5lY3Rpb246IGNsb3NlDQpYLVBvd2VyZWQtQnk6IFBIUC83LjIuMzMNClZhcnk6IEFjY2VwdC1FbmNvZGluZw0KQ0YtQ2FjaGUtU3RhdHVzOiBEWU5BTUlDDQpjZi1yZXF1ZXN0LWlkOiAwNTY2ZjkyNDk1MDAwMGU2MDRjNTE1NTIwMDAwMDAwMQ0KU2VydmVyOiBjbG91ZGZsYXJlDQpDRi1SQVk6IDVkODRmN2I0MjkxYmU2MDQtTEhSDQphbHQtc3ZjOiBoMj0iOjQ0MyI7IG1hPTYwDQpDb250ZW50LUxlbmd0aDogMzI5DQoNCjwhRE9DVFlQRSBodG1sPg0KPGhlYWQ+DQo8dGl0bGU+V0VCISEhPC90aXRsZT4NCjwvaGVhZD4NCg0KPGJvZHk+DQo8Zm9udCBjb2xvcj1yZWQ+V2VsY29tZSBQbGF5ZXJzIFRvIE15IFNhZmUgSG91c2UgPGJyPg0KPGZvbnQgc2l6ZT0iMyI+DQo8Y2VudGVyPg0KPGltZyBzcmM9ImhhY2tlci5wbmciIHdpZHRoPSIyMDAiIGhlaWdodD0iMjAwIiAvPg0KPC9jZW50ZXI+DQoNCjxmb250IHNpemU9JzUnIGNvbG9yPSAnIzA1ZmYxYSc+WW91ciBMb2dpbiBuYW1lOm5vdDxicj5Zb3VyIFBhc3N3b3JkOmVhc3k8L2ZvbnQ+PC9mb250PiA8L2Rpdj4NCjwvYm9keT4NCjwvaHRtbD4NCg0K]]></response>
+    <comment></comment>
+  </item>
+</items>
