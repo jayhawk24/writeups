@@ -1,0 +1,10 @@
+ 3712  python disitool.py extract cert certsig.der
+ 3713  ls
+ 3714  cat certsig.der
+ 3715  strings certsig.der
+ 3716  strings certsig.der | less
+ 3717  rm cert
+ 3718  openssl pkcs 7 -inform DER -print_certs -text -in certsig.der > certificat.txt
+ 3719  openssl pkcs7 -inform DER -print_certs -text -in certsig.der > certificat.txt
+ 3720  cat certificat.txt| less
+ 3721  history | tail

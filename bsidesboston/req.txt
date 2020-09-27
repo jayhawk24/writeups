@@ -1,0 +1,42 @@
+<?xml version="1.0"?>
+<!DOCTYPE items [
+<!ELEMENT items (item*)>
+<!ATTLIST items burpVersion CDATA "">
+<!ATTLIST items exportTime CDATA "">
+<!ELEMENT item (time, url, host, port, protocol, method, path, extension, request, status, responselength, mimetype, response, comment)>
+<!ELEMENT time (#PCDATA)>
+<!ELEMENT url (#PCDATA)>
+<!ELEMENT host (#PCDATA)>
+<!ATTLIST host ip CDATA "">
+<!ELEMENT port (#PCDATA)>
+<!ELEMENT protocol (#PCDATA)>
+<!ELEMENT method (#PCDATA)>
+<!ELEMENT path (#PCDATA)>
+<!ELEMENT extension (#PCDATA)>
+<!ELEMENT request (#PCDATA)>
+<!ATTLIST request base64 (true|false) "false">
+<!ELEMENT status (#PCDATA)>
+<!ELEMENT responselength (#PCDATA)>
+<!ELEMENT mimetype (#PCDATA)>
+<!ELEMENT response (#PCDATA)>
+<!ATTLIST response base64 (true|false) "false">
+<!ELEMENT comment (#PCDATA)>
+]>
+<items burpVersion="2020.2" exportTime="Sun Sep 27 02:35:07 IST 2020">
+  <item>
+    <time>Thu Jan 01 05:30:00 IST 1970</time>
+    <url><![CDATA[http://challenge.ctf.games:32109/post]]></url>
+    <host ip="104.197.239.121">challenge.ctf.games</host>
+    <port>32109</port>
+    <protocol>http</protocol>
+    <method><![CDATA[POST]]></method>
+    <path><![CDATA[/post]]></path>
+    <extension>null</extension>
+    <request base64="true"><![CDATA[UE9TVCAvcG9zdCBIVFRQLzEuMQ0KSG9zdDogY2hhbGxlbmdlLmN0Zi5nYW1lczozMjEwOQ0KVXNlci1BZ2VudDogTW96aWxsYS81LjAgKFgxMTsgTGludXggeDg2XzY0OyBydjo2OC4wKSBHZWNrby8yMDEwMDEwMSBGaXJlZm94LzY4LjANCkFjY2VwdDogdGV4dC9odG1sLGFwcGxpY2F0aW9uL3hodG1sK3htbCxhcHBsaWNhdGlvbi94bWw7cT0wLjksKi8qO3E9MC44DQpBY2NlcHQtTGFuZ3VhZ2U6IGVuLVVTLGVuO3E9MC41DQpBY2NlcHQtRW5jb2Rpbmc6IGd6aXAsIGRlZmxhdGUNCkNvbnRlbnQtVHlwZTogYXBwbGljYXRpb24veC13d3ctZm9ybS11cmxlbmNvZGVkDQpDb250ZW50LUxlbmd0aDogMjgwDQpETlQ6IDENCkNvbm5lY3Rpb246IGNsb3NlDQpSZWZlcmVyOiBodHRwOi8vY2hhbGxlbmdlLmN0Zi5nYW1lczozMjEwOS8NCkNvb2tpZTogc3RvcnlUaW1lU2Vzc2lvbj1leUpwWkNJNk1uMC5YMjlmU2cuOXRnX1Vpbk1JTzdNQV9aSUZDSmxRNzFfTWZ3DQpVcGdyYWRlLUluc2VjdXJlLVJlcXVlc3RzOiAxDQoNCnN0b3J5PXRpdGxlJTNBKyUyMlRpdGxlK29mK3lvdXIrc3RvcnklMjIlMEQlMEFzeW5vcHNpcyUzQSslMjJUaGlzK2lzK2ErYnJpZWYrc3VtbWFyeStvZit5b3VyK3N0b3J5JTIyJTBEJTBBcGxvdCUzQSslN0MlMEQlMEErKysrT25jZSt1cG9uK2ErdGltZS4uLiUwRCUwQSsrKysuLi5hbmQrdGhleStsaXZlZCtoYXBwaWx5K2V2ZXIrYWZ0ZXIuJTBEJTBBKysrK1RoZStFbmQlMEQlMEFrZXl3b3JkcyUzQSUwRCUwQSsrKystKyUyMmV4YW1wbGUlMjIrJTBEJTBBKysrKy0rJTIyZmljdGlvbiUyMis=]]></request>
+    <status></status>
+    <responselength></responselength>
+    <mimetype></mimetype>
+    <response base64="true"></response>
+    <comment></comment>
+  </item>
+</items>
