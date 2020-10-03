@@ -145,12 +145,7 @@ def main():
 
         temp = ""
         mystr = temp.join(sequence)
-
-        buildstr = salt + mystr
-        res = hashlib.md5(buildstr.encode())
-
-        if res.hexdigest().startswith("0e"):
-            print(buildstr, res.hexdigest())
+        print(buildstr, res.hexdigest())
             clear()
 
             if res.hexdigest()[2:].isdigit():
@@ -164,3 +159,20 @@ def main():
 if __name__ == "__main__":
     main()
 ```
+
+## Miscellanious
+
+### The Text Editor Jail
+
+Just enter :!ls to run command ls on vim  
+the we can see that there is a file named run_for_flag or something
+run it by first pressing escape and then :!./run_for_flag  
+and there you will have the flag.  
+
+### An impossible Number
+
+Can you think of a number which at the same time is one more than itself?
+
+Yes it is the maximum positive value an integer can store in a variable.
+
+### 
